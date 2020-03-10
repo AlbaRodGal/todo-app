@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>My To Do list</title>
 </head>
@@ -14,16 +15,25 @@
 <body>
     <header>
         <h1>My day</h1>
-        <p>Tuesday, March 17</p>
+        <p>Tuesday, March 10</p>
     </header>
     <main>
         <ul class="list-group">
-            <li class="list-group-item"><input type="checkbox" aria-label="Checkbox for following text input">
-                Buy new mat</li>
-            <li class="list-group-item"><input type="checkbox" aria-label="Checkbox for following text input">
-                Homework</li>
-            <li class="list-group-item"><input type="checkbox" aria-label="Checkbox for following text input">
-                Meals</li>
+            <div class="container">
+                <li class="list-group-item"><input type="checkbox" aria-label="Checkbox for following text input">
+                    Buy new mat</li>
+                <button class="btn"><i class="fa fa-trash fa-2x"></i></button>
+            </div>
+            <div class="container">
+                <li class="list-group-item"><input type="checkbox" aria-label="Checkbox for following text input">
+                    Homework</li>
+                <button class="btn"><i class="fa fa-trash fa-2x"></i></button>
+            </div>
+            <div class="container">
+                <li class="list-group-item"><input type="checkbox" aria-label="Checkbox for following text input">
+                    Meals</li>
+                <button class="btn"><i class="fa fa-trash fa-2x"></i></button>
+            </div>
 
         </ul>
 

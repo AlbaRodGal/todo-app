@@ -1,27 +1,42 @@
-html,body, div{
+html,header, div, ul, li, body,footer{
+    margin: 0;
+    padding: 0;
+    display:flexbox;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
     background-image: url("images/wesley-pacifico-mPz34HvJdz8-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 h1, p{
-    margin: 20px;
+    margin:20px;
+    margin-left: 35px;
     color:white;
 }
 
 
-.input-group-prepend{
-    background-color: bisque;
-}
-
-li{
-    list-style: none;
-
-}
 .list-group{
-    width: 300px;
-    margin-left: 15px;
     margin-top: 10px;
+    display: inline-block;
+    /* border: 3px solid red ; */
+
+}
+
+.list-group-item{
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    margin-bottom: 2px;
+    
+}
+.btn{
+    color:white;
+    width: 50px;
+    height: 50px;
 }
 
 input[type=checkbox]{
@@ -29,6 +44,8 @@ input[type=checkbox]{
     height: 18px;
     width: 18px;
 }
-.addtask{
 
+.container{
+    margin-left: 22px;
 }
+
