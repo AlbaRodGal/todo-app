@@ -9,9 +9,20 @@ html,header, div, ul, li, body,footer{
 }
 body{
     background-image: url("images/wesley-pacifico-mPz34HvJdz8-unsplash.jpg");
+    width: 100%;
+    height: auto;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+@media only screen and (max-width:1450px){
+    body{
+        background-image: url("images/wesley-pacifico-mPz34HvJdz8-unsplash.jpg");
+        width: 100%;
+        height: 100vh;
+    }
+}
+
 h1, p{
     margin:20px;
     margin-left: 35px;
