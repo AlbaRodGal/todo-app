@@ -1,0 +1,34 @@
+html,body, div{
+    background-image: url("images/wesley-pacifico-mPz34HvJdz8-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, p{
+    margin: 20px;
+    color:white;
+}
+
+
+.input-group-prepend{
+    background-color: bisque;
+}
+
+li{
+    list-style: none;
+
+}
+.list-group{
+    width: 300px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+input[type=checkbox]{
+    margin-right: 7px;
+    height: 18px;
+    width: 18px;
+}
+.addtask{
+
+}
