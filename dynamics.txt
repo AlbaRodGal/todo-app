@@ -1,0 +1,6 @@
+- number of pending tasks
+- date
+- delete items
+- add items
+- edit items
+- complete items
