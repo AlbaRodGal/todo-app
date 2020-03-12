@@ -5,6 +5,18 @@ html,header, .container, .container-form, .list-group,.input-item, main, div, ul
     box-sizing: border-box;
     list-style-type: none;
     font-family: 'Montserrat', sans-serif;
+    font-size: large;
+}
+
+.row{
+    /* border: 3px solid red; */
+}
+.column1{
+    /* border: 3px solid black; */
+    width: 10%;
+}
+.column2{
+    /* border:3px solid yellow; */
 }
 body{
     background-image: url("images/wesley-pacifico-mPz34HvJdz8-unsplash.jpg");
