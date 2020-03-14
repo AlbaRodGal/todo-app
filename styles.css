@@ -7,16 +7,40 @@ html,header, .container, .container-form, .list-group,.input-item, main, div, ul
     font-family: 'Montserrat', sans-serif;
     font-size: large;
 }
+.container, container-form{
+    margin-left: 30px;
+}
+.input-item{
+    margin-bottom: 20px;
+    border: 3px solid lightgray;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    height: 50px;
+}
+.btn-primary{
+    border-radius: 10px;
+    height: 50px;
+}
+.btn{
+    margin-right: 10px;
 
-.row{
-    /* border: 3px solid red; */
 }
-.column1{
-    /* border: 3px solid black; */
-    width: 10%;
+.checkbox{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    margin-left: -15px;
+    position: relative;
+    top: 7px;
 }
-.column2{
-    /* border:3px solid yellow; */
+.task{
+    border: 3px solid lightgray;
+    border-radius: 10px;
+    margin:0;
+    background-color: white;
+    color: black;
+    margin-bottom: 3px;
 }
 body{
     background-image: url("images/wesley-pacifico-mPz34HvJdz8-unsplash.jpg");
@@ -31,77 +55,7 @@ h1, p{
     margin-left: 37px;
     color:white;
 }
-
-.container-form{
-    width:400px;
-    /* border: 3px solid red; */
-}
-
-.input-item{
-    width: 70%;
-    margin-left: 30px ;
-    height: 50px;
-    color: rgba(172, 181, 190, 0.753);
-    border-radius: 5px;
-    border:2px solid rgba(208, 214, 221, 0.192);
-    
-}
-
-.fa-plus-circle{
-    color:rgb(32, 32, 139);
-    padding:0px;
-}
-
-.list-group{
-    width:400px;
-    margin-top: 10px;
-    display: inline-block;
-    /* border: 3px solid red ; */
-
-}
-.container{
-    width: 100%;
-    /* border:3px solid blue; */
-}
-.list-group-item{
-    width: 70%;
-    margin-left: 30px ;
-    margin-bottom: 3px;
-    height: 50px;
-    display: inline-block;
-    border-radius: 5px;
-    border:2px solid rgba(208, 214, 221, 0.192);
-    color:rgb(24, 24, 92);
-    text-align: start;
-}
-.btn{
-    color:white;
-    padding:0px;
-    margin-left: 20px;
-}
-
-input[type=checkbox]{
-    margin-right: 2px;
-    margin-top:2px;
-    height: 18px;
-    width: 20%;
-}
-
-@media only screen and (max-width:1300px){
-    body{
-        background-image: url("images/wesley-pacifico-mPz34HvJdz8-unsplash.jpg");
-        width: 100%;
-        height: 100vh;
-    }
-}
-@media only screen and (max-width:900px){
-    body{
-        background-image: url("images/wesley-pacifico-mPz34HvJdz8-unsplash.jpg");
-        width: 100%;
-        height: 100vh;
-    }
-}
-@media only screen and (max-width:700px){
+@media only screen and (max-width: 1750px){
     body{
         background-image: url("images/wesley-pacifico-mPz34HvJdz8-unsplash.jpg");
         width: 100%;
@@ -109,38 +63,26 @@ input[type=checkbox]{
     }
 }
 
-@media only screen and (max-width:420px){
+@media only screen and (max-width: 920px){
     body{
         background-image: url("images/wesley-pacifico-mPz34HvJdz8-unsplash.jpg");
         width: 100%;
         height: 100vh;
     }
-    .container-form{
-        width: 300px;
-        /* border:3px solid pink; */
-        margin-left: 52px;
-        margin-right: 40px;
-        margin-bottom: 5px;
-    }
-    .input-item{
-        /* border:3px solid orange; */
-        margin:0;
-    }
-    .list-group{
-        /* border: 3px solid green; */
-        margin:0;
-    }
-    .list-group-item{
-        /* border:3px solid yellow; */
-        margin-bottom:5px;
-        margin-left: 10px;
-    }
-    .container{
-        width: 300px;
-        margin-left: 40px;
-        margin-right: 60px;
-        /* border:3px solid purple; */
-        display: inline-block;
+}
 
+@media only screen and (max-width: 600px){
+    body{
+        background-image: url("images/wesley-pacifico-mPz34HvJdz8-unsplash.jpg");
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    body{
+        background-image: url("images/wesley-pacifico-mPz34HvJdz8-unsplash.jpg");
+        width: 100%;
+        height: 100vh;
     }
 }
